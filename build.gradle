@@ -1,0 +1,7 @@
+apply plugin: 'war'
+repositories {
+	mavenCentral()
+}
+dependencies {
+    compile group: 'com.sun.jersey', name: 'jersey-server', version: '1.8'
+}
