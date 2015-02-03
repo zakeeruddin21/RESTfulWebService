@@ -26,7 +26,7 @@ public class Hello {
   @Path("/{param}")
   public Response getMsg(@PathParam("param") String msg) {
  
-    String output = "Jersey say : " + msg;
+    String output = "Hello : " + msg + ". This is your first Chef/jenkins automated application";
  
     return Response.status(200).entity(output).build();
  
